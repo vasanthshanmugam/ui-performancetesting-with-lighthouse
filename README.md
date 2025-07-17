@@ -1,6 +1,3 @@
-<img src="https://r2cdn.perplexity.ai/pplx-full-logo-primary-dark%402x.png" class="logo" width="120"/>
-
-# create a structured markdown file for the following with the best format and the best emojis to make it more interesting and attractive
 
 Episode Structure Overview
 Episode 1: Introduction to UI Performance Testing
@@ -171,5 +168,4 @@ Welcome to the ultimate journey in mastering UI Performance Testing! This guide 
 
 > **Tip:** Bookmark this guide and check in as you progress through each episode! ⭐
 
-Let me know if you need further customization or a downloadable version!
 
