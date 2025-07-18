@@ -1,15 +1,22 @@
-Update Node.js (Recommended)
+Solution 1: Update Node.js (Recommended)
 Option A: Using Node Version Manager (nvm)
 bash# Install nvm if you don't have it
-# Download from: https://github.com/coreybutler/nvm-windows/releases
-Download https://github.com/coreybutler/nvm-windows/releases/download/1.2.2/nvm-setup.exe
+# Download from: https://github.com/coreybutler/nvm-windows
 
+# Install latest Node.js
 nvm install latest
 nvm use latest
 
+# Verify version
 node --version
+Option B: Direct Download
 
-Use Compatible Lighthouse Version
+Go to https://nodejs.org/
+Download the latest LTS version
+Install it
+Restart your terminal
+
+Solution 2: Use Compatible Lighthouse Version
 bash# Uninstall current version
 npm uninstall -g lighthouse
 
@@ -18,3 +25,31 @@ npm install -g lighthouse@10.4.0
 
 # Test it
 lighthouse https://google.com --only-categories=performance
+Solution 3: Use Chrome DevTools (No CLI needed)
+
+Open Chrome
+Press F12 (Developer Tools)
+Go to Lighthouse tab
+Enter URL and click "Analyze page load"
+Get instant performance metrics
+
+Solution 4: Use npx (No global install)
+bash# Run without installing globally
+npx lighthouse@10.4.0 https://google.com --only-categories=performance
+
+# Or latest with newer Node
+npx lighthouse https://google.com --only-categories=performance
+Quick Fix Commands:
+Try this first:
+bashnpm install -g lighthouse@10.4.0
+lighthouse https://google.com --only-categories=performance
+If that doesn't work:
+bashnpx lighthouse@10.4.0 https://google.com --only-categories=performance
+Alternative: Use Chrome DevTools Right Now
+
+Open Chrome
+Go to any website (like https://google.com)
+Press F12
+Click Lighthouse tab
+Click Analyze page load
+Get instant performance metrics!
