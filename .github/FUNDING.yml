@@ -1,0 +1,45 @@
+# FUNDING.yml - Configure funding links for your GitHub repository
+# Learn more: https://docs.github.com/github/administering-a-repository/displaying-a-sponsor-button-in-your-repository
+
+# GitHub Sponsors usernames (up to 4 usernames)
+github:
+  # - user1
+  # - user2
+
+# Patreon username
+patreon: # your-patreon-username
+
+# Open Collective username
+open_collective: # your-opencollective-username
+
+# Ko-fi username
+ko_fi: # your-kofi-username
+
+# Tidelift platform & package name (e.g., npm/babel)
+tidelift: # platform-name/package-name
+
+# Community Bridge project name
+community_bridge: # your-community-bridge-project
+
+# Liberapay username
+liberapay: # your-liberapay-username
+
+# IssueHunt username
+issuehunt: # your-issuehunt-username
+
+# LFX Crowdfunding project name
+lfx_crowdfunding: # your-lfx-crowdfunding-project
+
+# Polar username
+polar: # your-polar-username
+
+# Buy Me a Coffee username
+buy_me_a_coffee: # your-buymeacoffee-username
+
+# thanks.dev username
+thanks_dev: # your-thanks-dev-username
+
+# Custom sponsorship URLs (up to 4)
+custom:
+  # - https://your-custom-sponsor-link1.com
+  # - https://your-custom-sponsor-link2.com
